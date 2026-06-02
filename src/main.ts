@@ -6,6 +6,7 @@ import { setupCounter } from './counter.ts'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 <section id="center">
+<p>Welcome to React app Deployment</p>
   <div class="hero">
     <img src="${heroImg}" class="base" width="170" height="179">
     <img src="${typescriptLogo}" class="framework" alt="TypeScript logo"/>
