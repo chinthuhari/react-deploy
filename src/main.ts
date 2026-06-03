@@ -6,6 +6,7 @@ import { setupCounter } from './counter.ts'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 <section id="center">
+<h1>I am cloud architect<h1>
 <p>Welcome to React app Deployment</p>
   <div class="hero">
     <img src="${heroImg}" class="base" width="170" height="179">
@@ -13,7 +14,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <img src="${viteLogo}" class="vite" alt="Vite logo" />
   </div>
   <div>
-    <h1>Get started</h1>
+    <h2>Get started</h2>
     <p>Edit <code>src/main.ts</code> and save to test <code>HMR</code></p>
   </div>
   <button id="counter" type="button" class="counter"></button>
