@@ -6,7 +6,7 @@ import { setupCounter } from './counter.ts'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 <section id="center">
-<h1>I am cloud architect<h1>
+<h1>I am cloud architect and Developer<h1>
 <p>Welcome to React app Deployment</p>
   <div class="hero">
     <img src="${heroImg}" class="base" width="170" height="179">
